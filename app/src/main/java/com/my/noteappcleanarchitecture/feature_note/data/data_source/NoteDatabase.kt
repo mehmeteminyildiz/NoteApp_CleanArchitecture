@@ -13,5 +13,7 @@ created by Mehmet E. Yıldız
     version = 1
 )
 abstract class NoteDatabase : RoomDatabase() {
+
     abstract val noteDao: NoteDao
+
 }
