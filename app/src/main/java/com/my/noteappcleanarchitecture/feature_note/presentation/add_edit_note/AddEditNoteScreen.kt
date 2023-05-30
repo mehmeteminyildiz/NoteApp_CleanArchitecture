@@ -86,7 +86,10 @@ fun AddEditNoteScreen(
                 },
                 backgroundColor = MaterialTheme.colors.primary
             ) {
-                Icon(imageVector = Icons.Default.Save, contentDescription = "Save Note")
+                Icon(
+                    imageVector = Icons.Default.Save, contentDescription = "Save Note",
+                    tint = MaterialTheme.colors.onSurface
+                )
             }
         },
         scaffoldState = scaffoldState
